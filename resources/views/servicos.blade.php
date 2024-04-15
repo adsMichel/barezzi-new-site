@@ -1,91 +1,29 @@
 @extends('layout')
 
 @section('body')
-    <section id="team" class="team">
-        
-        <div class="section-header">
-            <h2>Our Team</h2>
-            <p>Architecto nobis eos vel nam quidem vitae temporibus voluptates qui hic deserunt iusto omnis nam voluptas asperiores sequi tenetur dolores incidunt enim voluptatem magnam cumque fuga.</p>
-        </div>
-        
-        <div class="container" data-aos="fade-up">
-
-            <div class="row gy-5">
-
-                <div class="col-xl-6 col-md-6 d-flex">
-                    <div class="team-member">
-                    <div class="member-img">
-                        <img src="assets/img/team01.jpg" class="img-fluid" alt="">
-                    </div>
-                    <div class="member-info">
-                        <div class="social">
-                        <a href=""><i class="bi bi-twitter"></i></a>
-                        <a href=""><i class="bi bi-facebook"></i></a>
-                        <a href=""><i class="bi bi-instagram"></i></a>
-                        <a href=""><i class="bi bi-linkedin"></i></a>
-                        </div>
-                        <h4>Gelson Nobre</h4>
-                        <span>Chief Executive Officer</span>
-                    </div>
-                    </div>
-                </div><!-- End Team Member -->
-
-                <div class="col-xl-6 col-md-6 d-flex" data-aos="zoom-in" data-aos-delay="400">
-                    <div class="team-member">
-                    <div class="member-img">
-                        <img src="assets/img/team02.jpg" class="img-fluid" alt="">
-                    </div>
-                    <div class="member-info">
-                        <div class="social">
-                        <a href=""><i class="bi bi-twitter"></i></a>
-                        <a href=""><i class="bi bi-facebook"></i></a>
-                        <a href=""><i class="bi bi-instagram"></i></a>
-                        <a href=""><i class="bi bi-linkedin"></i></a>
-                        </div>
-                        <h4>Lucas Junio</h4>
-                        <span>Product Manager</span>
-                    </div>
-                    </div>
-                </div><!-- End Team Member -->
-                
-                <div class="col-xl-6 col-md-6 d-flex" data-aos="zoom-in" data-aos-delay="600">
-                    <div class="team-member">
-                    <div class="member-img">
-                        <img src="assets/img/team03.jpg" class="img-fluid" alt="">
-                    </div>
-                    <div class="member-info">
-                        <div class="social">
-                        <a href=""><i class="bi bi-twitter"></i></a>
-                        <a href=""><i class="bi bi-facebook"></i></a>
-                        <a href=""><i class="bi bi-instagram"></i></a>
-                        <a href=""><i class="bi bi-linkedin"></i></a>
-                        </div>
-                        <h4>João Paulo</h4>
-                        <span>CTO</span>
-                    </div>
-                    </div>
-                </div><!-- End Team Member -->
-
-                <div class="col-xl-6 col-md-6 d-flex" data-aos="zoom-in" data-aos-delay="400">
-                    <div class="team-member">
-                    <div class="member-img">
-                        <img src="assets/img/team04.jpg" class="img-fluid" alt="">
-                    </div>
-                    <div class="member-info">
-                        <div class="social">
-                        <a href=""><i class="bi bi-twitter"></i></a>
-                        <a href=""><i class="bi bi-facebook"></i></a>
-                        <a href=""><i class="bi bi-instagram"></i></a>
-                        <a href=""><i class="bi bi-linkedin"></i></a>
-                        </div>
-                        <h4>Michel Kuriyama</h4>
-                        <span>Product Manager</span>
-                    </div>
-                    </div>
-                </div><!-- End Team Member -->
-
+<section class="servicos d-flex flex-column align-items-center">
+    <!-- <h3 class="text-warning-emphasis my-3">Barezzi Serviços</h3> -->
+    <div class="card mb-3" style="max-width: 100%;">
+        <div class="row g-0">
+            <div class="col-md-4" id="geometria">
+                <!-- <img src="./Imagens/img-services.jpg" class="img-thumbnail" alt="Homem Sorrindo"> -->
             </div>
-
-      </div>
-    </section>
+            <div class="col-md-8">
+                <div class="card-body">
+                    <h5 class="card-title text-uppercase fs-6 text-black-50">Institucionais</h5>
+                    <p class="card-text h2 text-black-50">Ter sua presença online é fundamental para o sucesso de qualquer
+                        negócio.</p>
+                    <p class="card-text py-3">Barezzi Sites é a sua oportunidade de ter um site de qualidade, desenvolvido por
+                        profissionais com experiência de mercado comprovada e com um preço justo. Nossos sites utilizam uma
+                        plataforma moderna, de fácil administração e já estão prontos para navegação em PC’s, Celulares e
+                        Tablets.</p>
+                    <p class="card-text">Contratando nossos serviços, sua empresa passa a ser encontrada através de motores de
+                        busca como o Google. Hoje, a internet está propagada em todas as classes sociais e com isso milhões de
+                        consumidores ativos estão pesquisando na internet, e acredite, tudo hoje é pesquisado no Google,
+                        inclusive pelo produto e/ou serviço que seu negócio oferece.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
 @endsection

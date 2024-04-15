@@ -10,6 +10,7 @@
   <link rel="stylesheet" href="/assets/css/style.css">
   <link rel="stylesheet" href="/assets/css/main.css">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
+  <link href="/assets/css/swiper-bundle.min.css" rel="stylesheet">
 </head>
 
 <body>
@@ -25,8 +26,8 @@
   <!-- Scroll Top -->
   <!-- <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a> -->
 
-  <!-- Main JS File -->
-  <script src="/main.js"></script>
+  <script src="https://kit.fontawesome.com/824d94ecfe.js" crossorigin="anonymous"></script>    
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
 
 </body>
 

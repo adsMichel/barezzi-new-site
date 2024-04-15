@@ -19,11 +19,11 @@
                 <div class="col-lg-2 col-md-6 footer-links">
                     <h4>Links Úteis</h4>
                     <ul>
-                        <li><i class="bi bi-chevron-right"></i> <a href="#">Home</a></li>
-                        <li><i class="bi bi-chevron-right"></i> <a href="#">Sobre</a></li>
-                        <li><i class="bi bi-chevron-right"></i> <a href="#">Serviços</a></li>
-                        <li><i class="bi bi-chevron-right"></i> <a href="#">Contato</a></li>
-                        <li><i class="bi bi-chevron-right"></i> <a href="#">FAQ</a></li>
+                        <li><i class="bi bi-chevron-right"></i> <a href="/">Home</a></li>
+                        <li><i class="bi bi-chevron-right"></i> <a href="/sobre">Sobre</a></li>
+                        <li><i class="bi bi-chevron-right"></i> <a href="/servicos">Serviços</a></li>
+                        <li><i class="bi bi-chevron-right"></i> <a href="/contato">Contato</a></li>
+                        <li><i class="bi bi-chevron-right"></i> <a href="/faq">FAQ</a></li>
                     </ul>
                 </div>
 
